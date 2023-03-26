@@ -10,9 +10,14 @@
 
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('persons', 'root', 'Qaniaku7*', {
+// const sequelize = new Sequelize('persons', 'root', 'Qaniaku7*', {
+//     dialect: 'mysql',
+//     host: 'localhost'
+// });
+
+const sequelize = new Sequelize('persons', 'root', 'i6k0bsyBXkLhAKwz2Zej', {
     dialect: 'mysql',
-    host: 'localhost'
+    host: 'containers-us-west-87.railway.app'
 });
 
 module.exports = sequelize;
