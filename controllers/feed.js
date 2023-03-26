@@ -3,6 +3,13 @@ const People = require('../model/product')
 
 exports.getPosts = (req, res, next) => {
   let Posts = []
+
+  return res.status(200).json(
+    // posts: [{ title: 'Ayah', content: 'Ayah Aja!' },
+    //         { title: 'Bunda', content: 'This is the second post!' }
+    "HALO"
+    )
+  
   
   // db.execute('SELECT * FROM people')
   //     .then(([rows, fieldData]) => {
