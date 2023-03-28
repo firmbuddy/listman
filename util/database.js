@@ -15,9 +15,10 @@ const Sequelize = require('sequelize');
 //     host: 'localhost'
 // });
 
-const sequelize = new Sequelize('persons', 'root', 'i6k0bsyBXkLhAKwz2Zej', {
+const sequelize = new Sequelize('railway', 'root', 'i6k0bsyBXkLhAKwz2Zej', {
     dialect: 'mysql',
-    host: 'containers-us-west-87.railway.app'
+    host: 'containers-us-west-87.railway.app',
+    port: '7502'
 });
 
 module.exports = sequelize;
